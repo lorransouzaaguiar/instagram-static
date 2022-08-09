@@ -1,0 +1,100 @@
+aside {
+  padding-top: 23px;
+  width: 100%;
+  margin-left: 29px;
+  position: sticky;
+  top: 65px;
+  height: 455px;
+}
+
+.side-bar-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.side-bar header img {
+  width: 56px;
+  height: 56px;
+  margin-right: 17px;
+}
+
+.side-bar header div {
+  width: 88px;
+}
+
+.profile-wrapper span:first-of-type {
+  color: var(--gray5);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.profile-wrapper span:last-child {
+  color: var(--gray4);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.suggestions {
+  margin-bottom: 33px;
+}
+.suggestions header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+.suggestions header span {
+  color: var(--gray4);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.suggestions header a {
+  color: var(--gray5);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+aside .profile-info {
+  display: flex;
+  height: 32px;
+}
+
+aside .profile-info img {
+  width: 32px;
+  height: 32px;
+  margin-right: 11px;
+}
+
+aside .profile-info h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--gray5);
+}
+aside .profile-info h4 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--gray4);
+}
+
+aside .profile a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--blue1);
+}
